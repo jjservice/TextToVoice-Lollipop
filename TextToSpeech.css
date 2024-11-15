@@ -13,7 +13,7 @@ body {
    
 }
 .container {
-    height: 100vh;
+    height: 100dvh;
     margin: 0% auto;
     background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
 }
