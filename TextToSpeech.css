@@ -9,7 +9,12 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+    background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
    
+}
+body.light{
+    background-image: linear-gradient(to right,black,black,darkblue,maroon,black,black);
 }
 .container {
     height: 100vh;
