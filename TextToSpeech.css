@@ -9,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
    
 }
 .container {
@@ -216,7 +217,13 @@ body.light .btn{
     font-size: 20px;
     text-align: center;
     align-items: center;
-}
+   }
+.container {
+    margin: 0% auto; 
+    height: 100vh;
+   }
+  
+
   }
 
 
