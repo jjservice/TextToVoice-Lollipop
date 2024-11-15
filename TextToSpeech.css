@@ -21,7 +21,6 @@ body.light .container {
     background-image: linear-gradient(to right,black,black,darkblue,maroon,black,black);
 }
 
-
 .app-container {
     height: 100vh;
     display: flex;

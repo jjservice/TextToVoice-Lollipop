@@ -8,8 +8,7 @@ convertBtn.addEventListener('click', function () {
 
     if (!speechSynth.speaking &&
         !enteredText.trim().length) {
-        error.textContent = `Nothing to Convert! 
-        Enter text in the text area.`
+        error.textContent = `Enter text to convert!`
     }
     
     if (!speechSynth.speaking && enteredText.trim().length) {
@@ -17,7 +16,7 @@ convertBtn.addEventListener('click', function () {
         const newUtter =
             new SpeechSynthesisUtterance(enteredText);
         speechSynth.speak(newUtter);
-        convertBtn.textContent = "Sound is Playing..."
+        convertBtn.textContent = "Playing Conversion!..."
     }
     
     setTimeout(() => {
