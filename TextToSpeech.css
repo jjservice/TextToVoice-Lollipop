@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body {
@@ -9,27 +9,25 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: auto;
+    height: 100dvh;
    
 }
 .container {
-    height: 100vh;
     margin: 0% auto;
+    height: 100dvh;
     background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
 }
 body.light .container {
     background-image: linear-gradient(to right,black,black,darkblue,maroon,black,black);
 }
-
-.app-container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: #fff;
-}
+    .app-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+    }
 
 
 
