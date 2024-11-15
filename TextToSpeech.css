@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.container {
+    height: 100vh;
+    margin: 0% auto;
+    background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
+}
+body.light .container {
+    background-image: linear-gradient(to right,black,black,darkblue,maroon,black,black);
+}
+
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.interaction-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.text-control {
+    margin: 0% auto;
+    margin-bottom: 10px;
+    width: 350px;
+    background-color: rgba(0, 0, 139, 0.329);
+    color: darkgray;
+    text-shadow: 1px 1px 2px darkblue;
+    border: 1px solid rgba(255, 217, 0, 0.644);
+    box-shadow: 0px 2px 10px lightpink;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}
+body.light .text-control{
+    color: white;
+    text-shadow: 1px 1px 2px darkblue;
+    background-color: #3f464a52;
+}
+
+.text-control:focus-visible {
+    outline: none;
+}
+
+.error-para {
+    color: rgb(243, 29, 29);
+}
+
+.btn {
+    margin: 0% auto;
+    margin-bottom: 10px;
+    padding: 12px;
+    background: rgba(93, 3, 116, 0.822);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    transition: all 0.25s;
+    opacity: 90%;
+}
+
+.btn:hover {
+    padding: 1rem;
+}
+h1{ 
+    margin: 0% auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
+    border: 4px solid rgba(255, 217, 0, 0.384);
+    box-shadow: 0px 2px 20px rgb(139, 0, 76);
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    width: 365px;
+}
+h1 ion-icon{
+    color: rgba(255, 217, 0, 0.568);
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(2, 4, 114, 0.363);
+    border-radius: 12px;
+    border-bottom: 2px solid magenta;
+    cursor: pointer;
+
+}
+body.light h1{
+    text-shadow: 2px 2px 2px  darkblue;
+    background: rgba(139, 0, 0, 0.301);
+    border: 4px solid  rgba(0, 0, 139, 0.404);
+    box-shadow: 0px 2px 5px lightskyblue;
+}
+body.light h1 ion-icon{
+    color: rgba(135, 206, 250, 0.562);
+    border-bottom: 2px solid rgba(0, 0, 255, 0.644);
+    cursor: pointer;
+}
+h2{
+    margin: 0% auto;
+    margin-bottom: 20px;
+    color: darkgray;
+    text-shadow: 2px 2px 2px darkblue;
+    background-color: rgba(139, 0, 139, 0.432);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+body.light h2{
+    background-color: rgba(255, 255, 255, 0.199);
+   
+}
+h3{
+    color: white;
+    text-shadow: 2px 2px 2px darkmagenta;
+    margin-bottom: 5px;
+}
+h4{
+    color: darkgray;
+    text-shadow: 2px 2px 2px darkblue;
+    text-align: center;
+    margin-bottom: 2px;
+}
+h4 ion-icon{
+    color: rgba(255, 217, 0, 0.651);
+    font-size: 18px;
+}
+body.light .btn{
+    background-color: rgba(14, 130, 202, 0.568);
+}
+
+.homebtn{
+    border-bottom: 1px solid gold;
+    box-shadow: 0px 2px 10px darkblue;
+    background-image: url(MusicGig.gif);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 7px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+    padding: 3px 10px;
+    opacity: 90%;
+
+  }
+  .homebtn ion-icon{
+    margin: 0% auto;
+    color: rgba(255, 217, 0, 0.568);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    
+  }
+  .homebtn ion-icon:hover{
+    color: gold;
+  }
+  .homebtn:hover{
+    color: gold;
+    transition: color 0.5s ease;
+    box-shadow: 2px 2px 20px gold;
+    transform: scale(1.10);
+    transition: 0.5s;
+    cursor: pointer;
+
+  }
+
+  @media (min-width: 768px) {
+   h1{
+     margin: 0 auto;
+     font-size: 50px;
+     width: 500px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+   }
+   .text-control {
+    margin: 0% auto;
+    margin-bottom: 10px;
+    width: 600px;
+    display: flex;
+    background-color: rgba(0, 0, 139, 0.329);
+    color: darkgray;
+    text-shadow: 1px 1px 2px darkblue;
+    border: 1px solid rgba(255, 217, 0, 0.644);
+    box-shadow: 0px 2px 10px lightpink;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+  }
+
+
