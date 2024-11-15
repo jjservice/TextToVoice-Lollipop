@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
 }
 body {
@@ -9,32 +9,28 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: auto;
-    background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
    
 }
 .container {
-    margin: 0% auto;
     height: 100vh;
+    margin: 0% auto;
     background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
 }
 body.light .container {
-    margin: 0% auto;
-    height: 100vh;
     background-image: linear-gradient(to right,black,black,darkblue,maroon,black,black);
 }
-    .app-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        color: #fff;
-    }
 
-    .headings-container {
-        padding: 0 1rem;
-    }
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+
 
 .interaction-container {
     display: flex;
@@ -50,7 +46,7 @@ body.light .container {
     margin-bottom: 10px;
     padding: 0.5rem;
     margin: 2rem 0;
-    width: 360px;
+    width: 350px;
     background-color: rgba(0, 0, 139, 0.329);
     color: darkgray;
     text-shadow: 1px 1px 2px darkblue;
@@ -59,7 +55,7 @@ body.light .container {
     border-radius: 10px;
     font-size: 18px;
     text-align: center;
-   
+    align-items: center;
 }
 body.light .text-control{
     color: white;
@@ -205,7 +201,7 @@ body.light .btn{
      margin: 0 auto;
      font-size: 50px;
      width: 500px;
-     margin-top: 10px;
+     margin-top: 20px;
      margin-bottom: 20px;
    }
    .text-control {
@@ -222,13 +218,7 @@ body.light .btn{
     font-size: 20px;
     text-align: center;
     align-items: center;
-   }
-.container {
-    margin: 0% auto; 
-    height: 100vh;
-   }
-  
-
+}
   }
 
 

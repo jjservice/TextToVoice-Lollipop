@@ -8,7 +8,8 @@ convertBtn.addEventListener('click', function () {
 
     if (!speechSynth.speaking &&
         !enteredText.trim().length) {
-        error.textContent = "Enter text to convert!";
+        error.textContent = `Nothing to Convert! 
+        Enter text in the text area.`
     }
     
     if (!speechSynth.speaking && enteredText.trim().length) {
@@ -16,11 +17,11 @@ convertBtn.addEventListener('click', function () {
         const newUtter =
             new SpeechSynthesisUtterance(enteredText);
         speechSynth.speak(newUtter);
-        convertBtn.textContent = "Playing Conversion!...";
+        convertBtn.textContent = "Sound is Playing..."
     }
     
     setTimeout(() => {
-        convertBtn.textContent = "Play Converted Sound";
+        convertBtn.textContent = "Play Converted Sound"
     }, 5000);
 });
 
