@@ -14,11 +14,13 @@ body {
    
 }
 .container {
-    height: 100vh;
     margin: 0% auto;
+    height: 100vh;
     background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
 }
 body.light .container {
+    margin: 0% auto;
+    height: 100vh;
     background-image: linear-gradient(to right,black,black,darkblue,maroon,black,black);
 }
     .app-container {
@@ -30,7 +32,9 @@ body.light .container {
         color: #fff;
     }
 
-
+    .headings-container {
+        padding: 0 1rem;
+    }
 
 .interaction-container {
     display: flex;
@@ -44,7 +48,9 @@ body.light .container {
 .text-control {
     margin: 0% auto;
     margin-bottom: 10px;
-    width: 350px;
+    padding: 0.5rem;
+    margin: 2rem 0;
+    width: 360px;
     background-color: rgba(0, 0, 139, 0.329);
     color: darkgray;
     text-shadow: 1px 1px 2px darkblue;
@@ -53,7 +59,7 @@ body.light .container {
     border-radius: 10px;
     font-size: 18px;
     text-align: center;
-    align-items: center;
+   
 }
 body.light .text-control{
     color: white;
