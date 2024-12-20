@@ -89,7 +89,7 @@ body.light .text-control{
     text-shadow: 2px 2px 2px black;
     box-shadow: 0px 2px 6px rgba(135, 206, 250, 0.753);
     cursor: pointer;
-    transition: all 0.25s;
+    transition: all 0.5s;
     opacity: 90%;
 }
 body.light .btn{
