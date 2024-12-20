@@ -82,14 +82,20 @@ body.light .text-control{
     margin: 0% auto;
     margin-bottom: 10px;
     padding: 12px;
-    background: rgba(93, 3, 116, 0.822);
-    border: 1px solid transparent;
+    background-color: rgba(14, 130, 202, 0.568);
+    border: 1px solid lightskyblue;
     border-radius: 10px;
     color: white;
     text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 2px 6px rgba(135, 206, 250, 0.753);
     cursor: pointer;
     transition: all 0.25s;
     opacity: 90%;
+}
+body.light .btn{
+    background: rgba(93, 3, 116, 0.678);
+    border: 1px solid rgba(153, 205, 50, 0.89);
+    box-shadow: 0px 2px 6px black;
 }
 
 .btn:hover {
@@ -167,9 +173,7 @@ h4 ion-icon{
     color: rgba(255, 217, 0, 0.651);
     font-size: 18px;
 }
-body.light .btn{
-    background-color: rgba(14, 130, 202, 0.568);
-}
+
 
 .homebtn{
     border-bottom: 1px solid gold;
